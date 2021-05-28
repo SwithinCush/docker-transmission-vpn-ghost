@@ -1,4 +1,4 @@
-FROM linuxserver/transmission
+FROM haugene/transmission-openvpn
 
 # add ghost config file
 COPY root/ /
